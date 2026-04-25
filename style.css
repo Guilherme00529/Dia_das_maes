@@ -1,0 +1,52 @@
+body{
+
+    margin: 0;
+    background: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+
+}
+
+canvas{
+
+    position: absolute;
+}
+
+.message{
+
+    position: absolute;
+    font-size: 2.5em;
+    color: #fdf9f9;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    text-shadow: 0 0 15px #ffaad4, 0 0 25px  #ffaad4;
+
+
+}
+
+.dedicatoria {
+  position: absolute;
+  top: 42%;         /* Continua um pouco acima */
+  left: 68%;        /* Empurra mais para o canto direito */
+  width: 30%;       /* Um pouco mais compacta */
+  color: #f7f2f2;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-shadow: 0 0 10px #ffaad4, 0 0 20px #ffffff;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+
+.glow{
+ filter: drop-shadow(0 0 10px #ff37f5) drop-shadow(0 0 25px #be79b8);
+
+
+}
+
+
